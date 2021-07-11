@@ -11,23 +11,30 @@
     
 }
 
+ video{
+    height: 350px;
+    width: 540px;
+    object-fit: cover;
+    padding: 8px;
+ }
+
 ::-webkit-scrollbar {
     width: 5px;
-  }
+}
   
   ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px rgb(170, 170, 170); 
     border-radius: 10px;
-  }
+}
   
   ::-webkit-scrollbar-thumb {
     background: rgb(105, 105, 105); 
     border-radius: 10px;
-  }
+}
 
   ::-webkit-scrollbar-thumb:hover {
     background: #d3d3d3; 
-  }
+}
 
 #leave_meeting {
     display: flex;
@@ -35,11 +42,9 @@
     flex-direction: column;
     justify-content: center;
     height:30px;
-    margin-top:5px;
-    align-items: center;
     padding: 10px;
     font-size:12px;
-    margin-right:15px;
+    margin:5px 15px;
     min-width: 80px;
     border-radius:5px;
     background-color:#ff0000;
@@ -48,23 +53,15 @@
 #leave_meeting:hover {
     background-color:#EB534B;
 }
-#leave_meeting a {
-    color:#fff;
-}
-#leave_meeting a:hover {
-    color:#ffffff;
-    text-decoration:none;
-}
 
-
-.main__left {
+.left {
     flex: 0.8;
     display: flex;
     flex-direction: column;
     overflow-y: auto;
 }
 
-.main__right {
+.right {
     flex: 0.2;
     background-color: #242324;
     border-left: 1px solid #3D3D42;
@@ -73,7 +70,7 @@
     flex-direction: column;
 }
 
-.main__videos {
+.videos {
     flex-grow: 1;
     background-color: black;
     display: flex;
@@ -82,64 +79,51 @@
     padding: 40px;
 }
 
-.main__controls {
+.controls {
     background-color: #1C1E20;
     font-size:11px;
-   
-}
-
-
-
-.main__controls {
     color: #D2D2D2;
     display: flex;
     justify-content: space-between;
     padding: 5px;
     height:55px;
-    
-    
 }
 
-.main__controls__block {
+
+.controls_block {
     display: flex;
 }
 
-.main__controls__button {
+.controls_button {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 10px 10px;
     min-width: 80px;
-    cursor: pointer;
-    
-   
-    
+    cursor: pointer;  
 }
 
-.main__controls__button:hover {
+.controls_button:hover {
     background-color: #343434;
     border-radius: 5px;
 }
 
-.main__controls__button i {
+.controls_button i {
     font-size: 18px;
     padding-top:5px;
-    
-    
 }
 
 
-.main__header {
+.header {
     padding-top: 15px;
     color: #F5F5F5;
     text-align: center;
 }
 
-.main__chat_window {
+.chat_window {
     flex-grow: 1;
     overflow-y: auto;
-    
 }
 
 .messages{
@@ -147,36 +131,22 @@
     list-style: none;
 }
 
-.main__message_container {
+.message_container {
     padding: 22px 12px;
     display: flex;
     height:80px;
-    
-    
 }
 ::placeholder {
     font-size:14px;
     padding: 0 0 10px 10px;
+}
 
-}
-#submitbtn {
-    background-color:#cc3b334b;
-    color:#fff;
-    border:none;
-    font-size:14px;
-    width:60px;
-    border-radius:5px;
-    margin-left:10px;
-}
-#submitbtn:hover {
-    background-color:#cc3b334b;
-}
-.main__message_container input {
+.message_container input {
     flex-grow: 1;
     background-color: transparent;
     border: none;
     padding-left:8px;
-    border: solid 1px rgb(66, 66, 66);
+    border: solid 1px rgb(124, 124, 124);
     border-radius:5px;
     color: #F5F5F5;
 }

@@ -9,8 +9,6 @@
 ### **Libraries used:** socket.io, PeerJS
 ### **Template engine:** EJS
 
-### URL: msteamsrooms.herokuapp.com
-
 ### Brief Overview:
 
 Users can attach a random room name to the end of the link of the web app (for example, msteamsrooms.herokuapp.com/chatroom, wherein "chatroom" is the room name). This dynamic room link generation is handled by uuid. The number of users that can join a room is unlimited. Every time a new user joins the room, the other existing users are alerted with a notification.

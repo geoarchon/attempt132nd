@@ -57,15 +57,15 @@ The project will start running on port 3030. Open up https://localhost:3030 on y
 * The development process was iterative: design, add features, test the code, fix bugs.
 * I maintained a Scrum board on Notion for the sprints.
 
-## References
-
-[Clever Programmer](https://www.youtube.com/watch?v=ZVznzY7EjuY&t=5718s)\
-[Web Dev Simplified](https://www.youtube.com/watch?v=DvlyzDZDEq4)
-
 
 ## Demonstration
 
 View the video demonstration [here](https://www.youtube.com/watch?v=eHfgSg5l-qg).\
 Download the PDF with more details [here](https://drive.google.com/file/d/1wfM1CL3vv3voa1xx33zRKefxsTLP18yj/view?usp=sharing).
 #### Submission by: Shrimanti Pal
+
+## References
+
+[Clever Programmer](https://www.youtube.com/watch?v=ZVznzY7EjuY&t=5718s)\
+[Web Dev Simplified](https://www.youtube.com/watch?v=DvlyzDZDEq4)
 

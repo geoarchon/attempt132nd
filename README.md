@@ -1,16 +1,16 @@
 
-##  Microsoft Engage 2021
+#  Microsoft Engage 2021
 
-#### Submission by: Shrimanti Pal
 
-### A video calling web application that lets the users connect to different rooms and allows them to communicate in real time via video calling and chat messaging.
+A video calling web application that lets the users connect to different rooms and allows them to communicate in real time via video calling and chat messaging.
 
 ## Technologies Used
-### **JavaScript frameworks used:** Node.js, Express.js
-### **Libraries used:** socket.io, PeerJS
-### **Template engine:** EJS
+#### **JavaScript frameworks used:** Node.js, Express.js
+#### **Libraries used:** socket.io, PeerJS
+#### **Frontend user interface:** EJS template engine, CSS
+#### **User Interface prototypes:** Figma
 
-### Brief Overview:
+## Overview
 
 Users can attach a random room name to the end of the link of the web app (for example, msteamsrooms.herokuapp.com/chatroom, wherein "chatroom" is the room name). This dynamic room link generation is handled by uuid. The number of users that can join a room is unlimited. Every time a new user joins the room, the other existing users are alerted with a notification.
 
@@ -18,5 +18,54 @@ After granting webcam and microphone permissions, the new user is connected to t
 
 Options to mute yourself and pause your video stream are added in the controls block. A ‘Leave Meeting’ button is also provided for when the user wishes to disconnect from the call. After leaving the call, the user can also choose to go back and rejoin the call.
 
+## Setup
 
+Clone the repository:
+```bash
+
+git clone https://github.com/geoarchon/msteams.git
+cd msteams
+```
+
+Install the node modules:
+
+```bash
+
+npm i uuid ejs peerjs express socket.io peer
+
+```
+Start running PeerJS on port 443:
+
+```bash
+
+peerjs --port 443
+
+```
+Run the code: 
+```bash
+
+npm run start
+
+```
+
+The project will start running on port 3030. Open up https://localhost:3030 on your brower.
+<br/>
+
+
+## Agile Methodologies
+
+* The development process was iterative: design, add features, test the code, fix bugs.
+* I maintained a Scrum board on Notion for the sprints.
+
+## References
+
+[Clever Programmer](https://www.youtube.com/watch?v=ZVznzY7EjuY&t=5718s)\
+[Web Dev Simplified](https://www.youtube.com/watch?v=DvlyzDZDEq4)
+
+
+## Demonstration
+
+View the video demonstration [here](https://www.youtube.com/watch?v=eHfgSg5l-qg).\
+Download the PDF with more details [here](https://drive.google.com/file/d/1wfM1CL3vv3voa1xx33zRKefxsTLP18yj/view?usp=sharing).
+#### Submission by: Shrimanti Pal
 

@@ -48,7 +48,7 @@ npm run start
 
 ```
 
-The project will start running on port 3030. Open up https://localhost:3030 on your brower.
+The project will start running on port 3030. Open up https://localhost:3030 on your browser.
 <br/>
 
 

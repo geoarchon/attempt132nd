@@ -5,7 +5,7 @@
 
 ### A video calling web application that lets the users connect to different rooms and allows them to communicate in real time via video calling and chat messaging.
 
-##Technologies Used
+## Technologies Used
 ### **JavaScript frameworks used:** Node.js, Express.js
 ### **Libraries used:** socket.io, PeerJS
 ### **Template engine:** EJS

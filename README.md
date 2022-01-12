@@ -52,12 +52,6 @@ The project will start running on port 3030. Open up https://localhost:3030 on y
 <br/>
 
 
-## Agile Methodologies
-
-* The development process was iterative: design, add features, test the code, fix bugs.
-* I maintained a Scrum board on Notion for the sprints.
-
-
 ## References
 
 [Clever Programmer](https://www.youtube.com/watch?v=ZVznzY7EjuY&t=5718s)\
